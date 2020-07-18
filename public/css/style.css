@@ -1,0 +1,517 @@
+@import url("./libs/bootstrap.css");
+@import url("./libs/fontawesome/css/all.css");
+@import url("./colors.css");
+@import url("./fonts.css");
+@import url("./mediaqueries.css");
+@import url("./animations.css");
+
+
+/***
+*
+*
+*
+* HOME PAGE
+*
+*
+*
+***/
+
+.header {
+	height: 70px;
+	background: white;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	transition: all .2s ease-out;
+	border-bottom: .4px solid rgba(0,0,0,.30) !important;
+}
+.header .brand {
+	font-weight: bolder;
+	transition: all .2s ease-out;
+}
+.header .menu-icon {
+	display: none;
+}
+
+.header .list {
+	margin-top: 1.6%;
+	float: right!important;
+	list-style: none;
+	transition: all .2s ease-out;
+}
+.header .list .list-item {
+	display: inline;
+	margin: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.list-link {
+	color: black;
+}
+.header .logo {
+	font-size: 20px;
+	margin-block-start: 0!important;
+    margin-block-end: 0!important;
+    margin-inline-start: 0!important;
+    margin-inline-end: 0!important;
+	width: 20%!important;
+}
+
+/********************products*************************/
+.products {
+	height: 0;
+	background:white;
+	width: 100%;
+	position: fixed;
+	transition: all 0.6s ease-out;
+	border-bottom: .4px solid rgba(0,0,0,.30) !important;
+	display: grid;
+	/*grid-gap: 10px;*/
+	grid-template-columns: repeat(4,1fr);
+	z-index: 888;
+	/*padding-top: 80px;*/
+}
+
+.products ul {
+	margin: 90px 0 0 30px;
+	list-style: none;
+	display: none;
+	/*transition: all 0.5s ease-out!important;*/
+	animation-name: list;
+	animation-duration: .2s;
+	animation-iteration-count: 1;
+}
+
+/********************sidebar*************************/
+.sidebar {
+	width: 0px;
+	position: fixed;
+	right: 0!important;
+	background-color: white;
+	height: 100vh;
+	transition: all .2 ease-out;
+	border-left: .4px solid rgba(0,0,0,.30) !important;
+	z-index: 888;
+}
+.sidebar .list {
+	margin:80px 0 0 20px;
+	list-style: none;
+}
+.sidebar .list li {
+	padding-top:10px;
+}
+/********************LandingPage*************************/
+.landing-page {
+	background-image: url('.././assets/backgroundImage.jpg');/*person-pointing-numeric-print-1342460.jpg*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 100%;
+	padding-top: 18%;
+}
+.landing-page .main-title {
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	font-weight: 200;
+}
+.landing-page .btn-free-version {
+	background-color: white;
+	color: var(--text-darker);
+}
+.landing-page .btn-paid-version {
+	background-color: var(--primary);;
+	color: white;
+}
+
+/********************Second Screen*************************/
+.second-screen {
+	height: 100vh;
+	width:100%;
+	padding-top: 5%;
+}
+.second-screen .main-title {
+	text-align: center;
+	font-size: 70px;
+	color: var(--text-darker);
+}
+.card {
+	z-index: 1;
+	color: white;
+}
+.card-1 {
+	background:var(--info);
+}
+.card-1 .card-btn {
+	color: var(--info);
+}
+.card-2 {
+	background: var(--kbt-color);
+}
+.card-2 .card-btn {
+	color: var(--kbt-color);
+}
+.card-3 {
+	background: var(--pink);
+}
+.card-3 .card-btn {
+	color: var(--pink);
+}
+.card .card-icon {
+	font-size: 60px;
+	text-align: center;
+}
+.card .card-title {
+	font-size: 20px;
+	/*color: var(--text-darker);*/
+	text-align : center;
+
+}
+.card .card-text {
+	text-align: center;
+	font-weight: 200;
+	/*color: var(--text-less-dark);*/
+
+}
+.card .card-btn {
+	background-color: white;
+	width: 150px;
+	margin: 0 auto;
+}
+
+/********************Third Screen*************************/
+.third-screen {
+	height: 100vh;
+	width:100%;
+	padding-top: 5%;
+	background-color: var(--primary)
+}
+.third-screen .main-title {
+	text-align: center;
+	font-size: 70px;
+	color: var(--text-darker);
+	color: white;
+}
+
+/********************Fourth Screen*************************/
+.fourth-screen {
+	height: 100vh;
+	width:100%;
+	padding-top: 5%;
+}
+.fourth-screen .main-title {
+	text-align: center;
+	font-size: 70px;
+	color: var(--text-darker);
+}
+.fourth-screen .services {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 20px;
+}
+.service {
+	background-color: var(--kbt-color);
+	height: 300px;
+}
+.service-1 {
+	background-color: var(--pink-dark);
+	height: 300px;
+}
+.service-1 , .service {
+	display: grid;
+	grid-template-columns: .5fr 1fr;
+	align-items: center;
+	padding: 20px;
+}
+.kbt-logo, .opnstk-logo {
+	width: 70%;
+	height: 70%;
+}
+/********************Fifth Screen*************************/
+.fifth-screen {
+	height: 100vh;
+	width:100%;
+	padding-top: 5%;
+}
+.fifth-screen .main-title {
+	text-align: center;
+	font-size: 70px;
+	color: var(--text-darker);
+}
+.grid-logos {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 30px;
+	width: 80%;
+	margin: 0 auto;
+	justify-items: center;
+}
+
+/********************Sixth Screen*************************/
+
+.sixth-screen {
+	height: 500px;
+	width:100%;
+	padding-top: 10%;
+	background-image: url('.././assets/closeup-photo-of-black-computer-keyboard-s-left-side-keys-698808.jpg');
+	background-origin: content-box;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 200px;
+}
+.contact-component {
+	width: 30%;
+	height: 500px;
+	margin: 0 auto;
+	padding: 30px 20px 30px 20px;
+	background-color: white;
+	border: .4px solid rgba(0,0,0,.30) !important;
+}
+.contact-component .contact-component-title {
+	font-size: 30px!important;
+}
+.contact-component .contact-component-text {
+	font-weight: 100;
+	font-size: 13px;
+}
+.contact-component .contact-component-inputs {
+	width: 100%;
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.contact-component .text-area {
+	height: 150px!important;
+}
+.contact-component .contact-component-btn {
+	background-color: var(--primary);
+	color: white;
+	width: 100px;
+}
+
+/********************Footer*************************/
+.footer {
+	margin-top: 30px;
+	background-color: #00022b;
+	width: 100%;
+	height: auto;
+}
+.footer-content {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+.footer-content .list {
+	color: white;
+	margin: 90px 0 70px 0;
+	list-style: none;
+}
+.footer-content .list li {
+	margin-top: 15px;
+}
+.cc-rd {
+	display: none;
+}
+
+/**
+*
+*
+*
+* LOG IN PAGE
+*
+*
+*
+***/
+.login-area {
+	background-image: url('.././assets/black-lighted-gaming-keyboard-841228.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+	width: 100%;
+	padding-top: 13%;
+}
+.login-component {
+	background-color: white;
+	width: 400px;
+	min-height: 350px;
+	max-height: 350px;
+	padding: 30px 20px 30px 20px;
+	margin: 0 auto;
+}
+.login-component .login-component-title {
+	font-size: 30px!important;
+}
+.login-component .login-component-text {
+	font-weight: 100;
+	font-size: 13px;
+}
+.login-component .login-component-inputs {
+	width: 100%;
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.login-component .login-component-links {
+	font-size: 13px;
+}
+.login-component .left-link {
+	float: left;
+}
+.login-component .right-link {
+	float: right;
+}
+.login-component .login-component-btn {
+	margin-top:10px; 
+	background-color: var(--primary);
+	color: white;
+	border-radius: 0;
+	float: left;
+}
+/**
+*
+*
+*
+* SIGN UP
+*
+*
+*
+**/
+.signup-area {
+	background-image: url('.././assets/closeup-photo-of-black-computer-keyboard-s-left-side-keys-698808.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+	width: 100%;
+	padding-top: 8%;
+}
+.signup-component {
+	background-color: white;
+	width: 400px;
+	/*height: auto!important;*/
+	/*height: 300px;*/
+	min-height: 520px;
+	max-height: 520px;
+	padding: 30px 20px 30px 20px;
+	margin: 0 auto;
+}
+.signup-component .signup-component-title {
+	font-size: 30px!important;
+}
+.signup-component .signup-component-text {
+	font-weight: 100;
+	font-size: 13px;
+}
+.signup-component .signup-component-inputs {
+	width: 100%;
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.signup-component .signup-component-links {
+	font-size: 13px;
+}
+.signup-component .left-link {
+	float: left;
+}
+.signup-component .right-link {
+	float: right;
+}
+.signup-component .signup-component-btn {
+	margin-top:10px; 
+	background-color: var(--primary);
+	color: white;
+	border-radius: 0;
+	float: left;
+}
+/**
+*
+*
+*
+* PRICING
+*
+*
+*
+**/
+.pricing-area {
+	padding-top: 8%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.pricing-card {
+	color: black;
+}
+
+.card-list {
+	list-style: none;
+	margin-left: 0!important;
+	padding-left: 0!important;
+}
+.card-list-item {
+	padding: 10px;
+	border-bottom: .4px solid rgba(0,0,0,.30) !important;
+}
+
+.card-btn-pricing {
+	width: 100%!important;
+	background-color: var(--primary)!important;
+	color: white;
+} 
+.disabled {
+	text-decoration: line-through;
+}
+/**
+*
+*
+*
+* BLOG
+*
+*
+*
+**/
+.blog-area {
+	padding-top: 8%;
+}
+.blogs {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px;
+}
+
+.blog {
+	/*background-color: red;*/
+	color: black;
+}
+.blog-img {
+	margin: 10px 0 10px 0;
+	width: 100%;
+	height: 30%;
+}
+/**
+*
+*
+*
+* 404
+*
+*
+*
+***/
+.for-o-for {
+	padding-top: 8%;
+}
+
+.for-o-for-svg {
+	width: 70%!important;
+	height: 50%!important;
+	margin: 0 auto!important;
+}
+.for-o-for-title {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}

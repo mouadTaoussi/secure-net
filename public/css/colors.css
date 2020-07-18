@@ -1,0 +1,13 @@
+:root {
+	--primary : #3742fa; /*#050356 ;  /**#00293D**/
+	--text-darker: rgba(0,0,0,.95);
+	--text-less-dark:rgba(0,0,0,.80);
+	--danger: #EA2027;
+	--success: #009432;
+	--info: #006266;
+	--green:  #0d7f1e;
+	--orange: #e95420;
+	--pink: #ff4757;
+	--pink-dark: #da2643;
+	--kbt-color: #326ce5;
+}

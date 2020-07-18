@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1000px) {
+	.contact-component {
+		width: 80%;
+	}
+}
+
+/**********************************/
+@media only screen and (max-width: 800px) {
+	.header .list {
+		display: none
+	}
+	.landing-page {
+		height: 600px;
+		padding-top: 22%;
+	}
+	.second-screen ,
+	.third-screen ,
+	.fourth-screen ,
+	.fifth-screen {
+		height: 150%;
+	}
+	.landing-page .main-title ,
+	.second-screen .main-title ,
+	.third-screen .main-title ,
+	.fourth-screen .main-title ,
+	.fifth-screen .main-title {
+		font-size : 50px ;
+	}
+	.products {
+		/*grid-gap: 5rem;*/
+	}
+	.brand {
+		font-size: 14px!important;
+	}
+	.header .menu-icon {
+		display: block;
+	}
+	.grid-logos {
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 30px;
+		width: 90%;
+		margin: 0 auto;
+		justify-items: center;
+	}
+	.footer-content {
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 0;
+	}
+	.footer-content .list {
+		margin: 0 0 0 0;
+	}
+	.cc {
+		display: none;
+	}
+	.cc-rd {
+		display: block;
+	}
+	.blogs {
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 5px;
+	}
+	.pricing-area {
+		grid-template-columns: 1fr;
+	}
+	.fourth-screen .services {
+		display: grid;
+		grid-template-columns: 2fr;
+		grid-gap: 20px;
+	}
+	.service,.service-1 {
+		grid-template-columns: 1fr;
+		height: 200px;
+	}
+	.service-1 {
+		margin-bottom: 50px;
+	}
+	.kbt-logo, .opnstk-logo {
+		display: none;
+	}
+}
+
+/**********************************/
+@media only screen and (max-width: 500px) {
+
+}
+
+/**********************************/
+@media only screen and (max-width: 400px) {
+
+}

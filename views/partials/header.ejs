@@ -1,0 +1,66 @@
+<header class="header navbar">
+	<div class="container">
+		<p class="brand logo">Secure Net</p>
+		<ul class="list">
+			<li class="list-item"><a class="list-link" href="/blog">Blog</a></li>
+			<li class="list-item"><a class="list-link" href="/pricing">Pricing</li>
+			<li class="list-item dropdown"><a class="list-link" href="">Products</a></li>
+			<li class="list-item"><a class="list-link" href="/login">Log in</a></li>
+			<li class="list-item"><a class="list-link" href="/signup">Sign in</a></li>
+			<!-- <li class="list-item"><a class="list-link" href="/404">404</a></li> -->
+		</ul>
+		<i  class="fas fa-bars text-right menu-icon"></i>
+	</div>
+</header>
+<div class="products">
+	<ul class="list">
+		<li><h4>Products:<h4></li>
+		<li>GraphQL API</li>
+		<li>Oauth 2.0</li>
+		<li>Blockchains</li>
+		<li>API Client</li>
+		<li>Serverless</li>
+		<li>Desktop app</li>
+	</ul>
+	<ul class="list">
+		<li><h4>Get Started:<h4></li>
+		<li>Documentation</li>
+		<li>Ask for Help</li>
+		<li>Technical Support</li>
+		<li>FAQ</li>
+	</ul>
+	<ul class="list">
+		<li><h4>Pricing:<h4></li>
+		<li>Entreprise</li>
+		<li>Student</li>
+		<li>Pro</li>
+	</ul>
+</div>
+<div class="sidebar">
+	<ul class="list">
+		<li class=""><a href="/blog">Blog</a></li>
+		<li class=""><a href="/pricing">Pricing</li>
+		<li class=" dropdown">Products</li>
+		<li class=""><a href="/login">Log in</a></li>
+		<li class=""><a href="/signup">Sign up</a></li>
+	</ul>
+</div>
+<style>
+	.sidebar {
+		width: 0px;
+		position: fixed;
+		right: 0!important;
+		background-color: white;
+		height: 100vh;
+		transition: all .2 ease-out;
+		border-left: .4px solid rgba(0,0,0,.30) !important;
+		z-index: 888;
+	}
+	.sidebar .list {
+		margin:80px 0 0 20px;
+		list-style: none;
+	}
+	.sidebar .list li {
+		padding-top:10px;
+	}
+</style>

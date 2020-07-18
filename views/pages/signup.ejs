@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in</title>
+	<%- include('../partials/head') %>
+</head>
+<body>
+	<section class='signup-area'>
+		<section class="signup-component">
+			<p class="signup-component-title">Sign up</p>
+			<p class="signup-component-text">
+				Creating a new account could give you permission to download and use our softwares.
+			</p>
+			<input 
+				type="text" 
+				name="fname" 
+				class="signup-component-inputs" 
+				placeholder="Enter your first name"><br>
+
+			<input 
+				type="text" 
+				name="sname" 
+				class="signup-component-inputs" 
+				placeholder="Enter your second name"><br>
+
+			<input 
+				type="text" 
+				name="phone" 
+				class="signup-component-inputs" 
+				placeholder="Enter your phone number"><br>
+
+			<input 
+				type="password" 
+				class="signup-component-inputs" 
+				placeholder="Enter your password"><br>
+
+			<input 
+				type="password" 
+				name="password" 
+				class="signup-component-inputs" 
+				placeholder="Confirm your password"><br>
+
+			<a 
+				class="signup-component-links left-link" 
+				href="login.html">Already have an account?</a><br>
+			<input 
+				type="submit" 
+				class="signup-component-btn btn btn-md" 
+				value="Sign in">
+		</section>
+	</section>
+</body>
+<%- include('../partials/scripts') %>
+</html>
