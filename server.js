@@ -37,8 +37,11 @@ router.get('*',(req,res)=>{
 	res.render('pages/404');
 });
 
+// Setting up the port
+const PORT = process.env.PORT || 8080;
+
 // Setting up the server
-app.listen(8080,(err)=>{
+app.listen(PORT,(err)=>{
 	if (err) {
 		throw new Error(err);
 		process.exit(1);
