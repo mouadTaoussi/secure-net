@@ -23,7 +23,9 @@
 	width: 100%;
 	z-index: 999;
 	transition: all .2s ease-out;
-	border-bottom: .4px solid rgba(0,0,0,.30) !important;
+	/*border-bottom: .4px solid rgba(0,0,0,.30) !important;*/
+	border-bottom: 4px solid var(--primary) !important;
+
 }
 .header .brand {
 	font-weight: bolder;
@@ -102,7 +104,7 @@
 }
 /********************LandingPage*************************/
 .landing-page {
-	background-image: url('.././assets/backgroundImage.jpg');/*person-pointing-numeric-print-1342460.jpg*/
+	background-image: url('.././assets/background.jpg');/*person-pointing-numeric-print-1342460.jpg*/
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -131,17 +133,26 @@
 	height: 100vh;
 	width:100%;
 	padding-top: 5%;
+	background-color: var(--light)
 }
 .second-screen .main-title {
 	text-align: center;
 	font-size: 70px;
 	color: var(--text-darker);
 }
-.card {
+.card-btn {
+	background-color: var(--primary);
+	color: white;
+}
+.card:hover {
+	border-color:  var(--primary);
+	transition: all .2s ease-out;
+}
+/*.card {
 	z-index: 1;
 	color: white;
 }
-.card-1 {
+*//*.card-1 {
 	background:var(--info);
 }
 .card-1 .card-btn {
@@ -158,7 +169,7 @@
 }
 .card-3 .card-btn {
 	color: var(--pink);
-}
+}*/
 .card .card-icon {
 	font-size: 60px;
 	text-align: center;
@@ -174,11 +185,6 @@
 	font-weight: 200;
 	/*color: var(--text-less-dark);*/
 
-}
-.card .card-btn {
-	background-color: white;
-	width: 150px;
-	margin: 0 auto;
 }
 
 /********************Third Screen*************************/
@@ -197,6 +203,7 @@
 
 /********************Fourth Screen*************************/
 .fourth-screen {
+	background-color: var(--light);
 	height: 100vh;
 	width:100%;
 	padding-top: 5%;
@@ -295,7 +302,7 @@
 /********************Footer*************************/
 .footer {
 	margin-top: 30px;
-	background-color: #00022b;
+	background-color: var(--primary-darker);
 	width: 100%;
 	height: auto;
 }
@@ -336,8 +343,9 @@
 .login-component {
 	background-color: white;
 	width: 400px;
-	min-height: 350px;
-	max-height: 350px;
+	/*min-height: 350px;
+	max-height: 350px;*/
+	height: 400px;
 	padding: 30px 20px 30px 20px;
 	margin: 0 auto;
 }
@@ -385,7 +393,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height:100vh;
+	height:auto;
 	width: 100%;
 	padding-top: 8%;
 }
@@ -393,9 +401,9 @@
 	background-color: white;
 	width: 400px;
 	/*height: auto!important;*/
-	/*height: 300px;*/
-	min-height: 520px;
-	max-height: 520px;
+	height: 550px;
+/*	min-height: 520px;
+	max-height: 520px;*/
 	padding: 30px 20px 30px 20px;
 	margin: 0 auto;
 }
@@ -465,6 +473,9 @@
 } 
 .disabled {
 	text-decoration: line-through;
+}
+.featured-plan {
+	border-color: var(--primary);
 }
 /**
 *

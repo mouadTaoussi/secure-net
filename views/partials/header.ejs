@@ -1,6 +1,14 @@
 <header class="header navbar">
 	<div class="container">
-		<p class="brand logo">Secure Net</p>
+		
+		<p class="brand logo">
+			<a href="/" 
+			   class="logo-item"
+			   style="background-color: black;color: white;padding: 2px 12px 2px 12px">
+				SECURE <v style="color: red;">.NET</v>
+			</a>
+		</p>
+		
 		<ul class="list">
 			<li class="list-item"><a class="list-link" href="/blog">Blog</a></li>
 			<li class="list-item"><a class="list-link" href="/pricing">Pricing</li>
@@ -38,29 +46,33 @@
 </div>
 <div class="sidebar">
 	<ul class="list">
-		<li class=""><a href="/blog">Blog</a></li>
-		<li class=""><a href="/pricing">Pricing</li>
-		<li class=" dropdown">Products</li>
-		<li class=""><a href="/login">Log in</a></li>
-		<li class=""><a href="/signup">Sign up</a></li>
+		<li class=""><a class="text-white" href="/blog">Blog</a></li>
+		<li class=""><a class="text-white" href="/pricing">Pricing</li>
+		<!-- <li class=" dropdown">Products</li> -->
+		<li class=""><a class="text-white" href="/login">Log in</a></li>
+		<li class=""><a class="text-white" href="/signup">Sign up</a></li>
 	</ul>
 </div>
 <style>
 	.sidebar {
-		width: 0px;
+		width: 200px;
 		position: fixed;
-		right: 0!important;
-		background-color: white;
+		/*position: absolute;*/
+		margin-right: -200px;
+		background-color: var(--primary);
 		height: 100vh;
-		transition: all .2 ease-out;
 		border-left: .4px solid rgba(0,0,0,.30) !important;
 		z-index: 888;
+		transition: all .2s ease-out;
 	}
 	.sidebar .list {
-		margin:80px 0 0 20px;
+		margin:100px 0 0 20px;
 		list-style: none;
 	}
 	.sidebar .list li {
 		padding-top:10px;
+	}
+	.logo-item:hover {
+		text-decoration: none;
 	}
 </style>

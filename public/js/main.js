@@ -54,11 +54,12 @@ document.querySelector(".products").onmouseleave = ()=>{
 
 document.querySelector(".header .menu-icon").onclick = ()=>{
 	const sidebar = document.querySelector('.sidebar');
-	console.log(sidebar.style.width)
-	if(sidebar.style.width === "0px"){
-		sidebar.style.width = "200px";
+	console.log(sidebar.style)
+	if(sidebar.style.marginRight === "0px"){
+		sidebar.style.marginRight = "-200px";
+		// sidebar.style.width = "200px";
 	}
 	else {
-		sidebar.style.width = "0";
+		sidebar.style.marginRight = "0px";
 	}
 }

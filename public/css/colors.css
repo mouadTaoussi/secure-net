@@ -1,5 +1,7 @@
 :root {
-	--primary : #3742fa; /*#050356 ;  /**#00293D**/
+	--primary : /*#3742fa;*/ /*#050356*/ /*;  /**#00293D**/ #ed0000;
+	--primary-darker : #af0000;
+	--light : #f7f7f7;
 	--text-darker: rgba(0,0,0,.95);
 	--text-less-dark:rgba(0,0,0,.80);
 	--danger: #EA2027;
