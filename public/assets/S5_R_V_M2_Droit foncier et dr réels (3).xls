@@ -1,0 +1,169 @@
+XX-APO_TITRES-XX																				
+apoC_annee	2019/2020																			
+apoC_cod_dip	RFDRFR																			
+apoC_Cod_Exp	14																			
+apoC_cod_vdi	601																			
+apoC_Fichier_Exp	C:\RFDRFR\S5\S5_R\S5_R_V_M2_Droit foncier et dr réels.xls																			
+apoC_lib_dip	Droit Français Privé																			
+apoC_Titre1	Export Apogée du 06/03/2020 à 12:36																			
+apoC_Titre2																				
+																				
+XX-APO_TYP_RES-XX																				
+15	ABI	ABJ	ABS	ABSN	AC	ACAR	ADM	ADMI	AJ	DEF	NCR	NV	R	V	VAR					
+16	ABI	ABJ	ABS	ABSN	AC	ACAR	ADM	ADMI	AJ	AJAC	DEF	NCR	NV	R	V	VAR				
+20	ABI	ABJ	ABS	ABSN	AC	ACAR	ADM	ADMI	AJ	AJ_*	DEF	EXCL	FR	NCR	NV	R	RAT	V	VAR	VT
+6	ABI	ABJ	ABS	ABSN	DEF	DIS														
+ABI : Absence injustifiée	ABJ : Absence justifiée	ABS : absent	ABSN : Absent	AC : Acquis par Compensation	ACAR : Acquis par Compensation aprés Rattrapage	ADM : Admis	ADMI : Admissible	AJ : Ajourné	DEF : Défaillant	NCR : NCR	NV : Non Validé	R : Rattrapage	V : Validé	VAR : Validé aprés Rattrapage						
+ABI : Absence injustifiée	ABJ : Absence justifiée	ABS : absent	ABSN : Absent	AC : Acquis par Compensation	ACAR : Acquis par Compensation aprés Rattrapage	ADM : Admis	ADMI : Admissible	AJ : Ajourné	AJAC : Ajourné mais accès autorisé à étape sup.	DEF : Défaillant	NCR : NCR	NV : Non Validé	R : Rattrapage	V : Validé	VAR : Validé aprés Rattrapage					
+ABI : Absence injustifiée	ABJ : Absence justifiée	ABS : absent	ABSN : Absent	AC : Acquis par Compensation	ACAR : Acquis par Compensation aprés Rattrapage	ADM : Admis	ADMI : Admissible	AJ : Ajourné	AJ_* : Ajourner et admis à l'année suivante	DEF : Défaillant	EXCL : Exclus	FR : Fraude	NCR : NCR	NV : Non Validé	R : Rattrapage	RAT : RATTRAPAGE	V : Validé	VAR : Validé aprés Rattrapage	VT : Validé par transfert	
+ABI : Absence injustifiée	ABJ : Absence justifiée	ABS : absent	ABSN : Absent	DEF : Défaillant	DIS : Dispense examen															
+																				
+XX-APO_COLONNES-XX																				
+apoL_a01_code	Type Objet	Code	Version	Année	Session	Admission/Admissibilité	Type Rés.			Etudiant	Numéro									
+apoL_a02_nom											Nom									
+apoL_a03_prenom											Prénom									
+apoL_a04_naissance									Session	Admissibilité	Naissance									
+APO_COL_VAL_DEB																				
+apoL_c0001	EPR	RFV35204CF		2019	2	1	N	RFV35204CF - DRT F & R	2	1	Note									
+apoL_c0002	EPR	RFV35204CF		2019	2	1	B		2	1	Barème									
+APO_COL_VAL_FIN																				
+apoL_c0003	APO_COL_VAL_FIN							  												
+																				
+XX-APO_VALEURS-XX																				
+apoL_a01_code	apoL_a02_nom	apoL_a03_prenom	apoL_a04_naissance	apoL_c0001	apoL_c0002															
+16512821	ABDENNOUR	AYOUB	 31/07/1993		ABS															
+16505464	ABOULAAYAD	DOHA	 21/02/1998		ABS															
+17507627	ABOULAHIA	KAOUTAR	 29/09/1999		10															
+9007034	ADIB	KARIMA	 23/01/1991		13															
+17513710	AFLACH	AYMEN	 12/06/1992		10															
+17508345	AIT MOHAMED	ZOUHAIR	 09/11/1999		ABS															
+17503982	AJDOUR	MEHDI	 14/05/1998		ABS															
+17513198	AOURDOU	SONIA	 10/11/1992		13															
+19517063	AOUZAL	NOUHAILA	 25/11/1996		ABS															
+15515081	AQABLI	TARIQ	 07/03/1991		ABS															
+15513449	ARIF	MANAL	 31/05/1997		13															
+17513422	ASKAFI	KHALID	 15/02/1972		ABS															
+17501039	AZNAG	SOUKAYNA	 03/09/1999		ABS															
+16512666	BAAKIL	DRISS	 08/12/1969		ABS															
+17510406	BACHR	NAWAL	 24/01/1999		13															
+16512747	BAHAMI	RIDA	 05/06/1996		ABS															
+17513509	BARGHOUT	ASMAA	 07/10/1988		ABS															
+17514188	BELAASSRI	AZIZ	 09/11/1980		ABS															
+17513718	BELEGCHOUR	NAOUAL	 02/12/1983		ABS															
+17502674	BELKADI	MOHAMMED	 10/04/1997		ABS															
+19517584	BENHADJ	YASMINE	 25/07/1998		ABS															
+16512539	BENZINEB	SARA	 06/01/1995		ABS															
+12003157	BERRHAZI	FATIMA ZAHRA	 22/08/1992		ABS															
+17513285	BILALYA	FATIMA ZAHRA	 19/10/1983		ABS															
+17513749	BIRY	ABDERRAHMANE	 22/09/1996		ABS															
+17509695	BOUBRAIM	MOHAMMED	 15/05/1999		ABS															
+16503371	BOUHADDA	RIHAB	 09/02/1998		ABS															
+16512537	BOURIHANE	ASSIA	 15/08/1998		ABS															
+17508529	BRAIK	KHADIJA	 09/04/1999		ABS															
+15510447	CHABAL	AMINA	 02/04/1996		ABS															
+12009107	CHAKIRI	HOUDA	 13/10/1994		ABS															
+18514859	CHERRADI	KHOULOUD	 31/08/1992		ABS															
+19517511	CHIHEB	ANAS	 22/04/1999		ABS															
+18517195	CHITAOUI	HAMZA	 13/07/1996		ABS															
+17508695	CHOUKRI	ABDELHAKIM	 30/08/1998		ABS															
+16512351	DAK	HOUDA	 16/05/1988		ABS															
+18514846	DARIS	FATIMA-EZZAHRAA	 18/03/1997		12															
+19517574	DOUKHAMA	AMINE	 28/06/1997		ABS															
+17507616	DRISSI YAHYAOUI	ASMAA	 13/10/1998		6															
+17509297	EDDARAI	OUMAIMA	 29/11/1999		ABS															
+16510134	EDDOUBAJY	NABIL	 26/06/1983		ABS															
+19518229	EL AMMOUNI	YASMINE	 04/02/1999		ABS															
+17513672	EL ANSARI	HOUDA	 11/06/1982		ABS															
+16512586	EL HAJJAMI	MOKHTAR	 20/09/1998		10															
+77507434	EL HARRASS	KHALID	 22/03/1986		10															
+17513127	EL KANBI	NAJAT	 15/03/1989		ABS															
+17507856	EL KIHEL	AICHA	 14/04/1999		10															
+17508361	EL KORAICHI	OUMAIMA	 10/10/1999		ABS															
+17503748	EL MOUTTAQI	ISMAIL	 18/12/1999		ABS															
+16512427	EL OUALIDI	MOHAMED	 26/06/1990		ABS															
+14509757	EL OUARDI	KHALID	 27/02/1981		ABS															
+19518245	ELARCHE	ZINEB	 19/11/1997		ABS															
+11005684	ELASRI	YASSINE	 15/09/1986		ABS															
+17501027	ELMAACH	LOUBNA	 05/05/1999		13															
+16512783	ENNAMANY	AMINE	 20/03/1996		ABS															
+17514619	FADEL	IDRISS	 06/03/1966		3															
+16501647	FAID	MOUAD	 24/12/1997		ABS															
+17513356	FAKAR	IMANE	 23/02/1994		5															
+17509042	FANGARY	ALI	 24/04/1975		2															
+19517581	GHARINE	CHAIMAA	 11/09/1997		ABS															
+17508472	GHAZZALI	AFAF	 13/12/1999		ABS															
+16504463	GORICH	ANASS	 12/10/1998		ABS															
+19517446	GOZMIR	HIBA	 31/08/1996		ABS															
+17511490	GUEDOUAR	TARIK	 04/06/1978		ABS															
+12006924	HADHA	YOUNES	 02/07/1994		10															
+17503146	HAFRAOUI	LINA	 26/05/1999		ABS															
+17511487	HAJJAM	ZINEB	 04/11/1999		ABS															
+17511349	HANIOUI	SALMA	 10/04/1999		ABS															
+16502458	HILAL	IMANE	 05/04/1998		ABS															
+16512634	HOUFIANE	WAFA	 20/09/1997		ABS															
+17512895	HOUMAIRI	MOHAMED EL BACHIR	 12/12/1981		ABS															
+13007555	IMARI	IMANE	 01/06/1995		ABS															
+16513079	JOUNDOUL	MOHAMED	 22/10/1996		ABS															
+17508945	KADMIRI	IKRAM	 05/03/2000		13															
+16512621	KARIM	HAFSA	 10/12/1995		ABS															
+17506469	KARMOUCHI	IMAD	 13/02/1999		ABS															
+17513124	KARRASSI	MHAMMED	 31/12/1969		14															
+17508676	KASMI	MOUAD	 09/08/1984		ABS															
+17509698	KASSED	MARIA	 06/08/1999		ABS															
+9003892	KHADDA	MARIA	 08/01/1985		ABS															
+8005650	KHAL	MOUNIR	 09/04/1990		5															
+16502008	LAAMIRI	IMANE	 30/08/1998		ABS															
+17510415	LABIB ELIDRISSI	MOHAMED TAHA	 23/04/1999		ABS															
+17510219	LACHKAR	ANASS	 11/02/2000		ABS															
+17512369	LACHKAR	SIHAME	 20/06/1988		ABS															
+8005329	LAGHBIRA	NADIA	 12/11/1988		ABS															
+17511637	LAHLOU	AMINA	 15/10/1990		ABS															
+17506091	LAHRACH	ANAS	 23/07/1999		ABS															
+17509526	LAHRAGUI	SALAHEDDINE	 29/01/1999		ABS															
+17513402	LAKABI	NASSER	 21/07/1995		10															
+17513637	LGHABI	MAJIDA	 20/07/1984		ABS															
+17513353	LOTFI	SOUAD	 20/05/1966		5															
+17514073	MAHFOUD	IHSANE	 18/09/1999		ABS															
+16512577	MAMDOUH	AMINA	 20/08/1998		ABS															
+15506409	MAMDOUH	KHADIJA	 15/09/1997		ABS															
+17510702	MAZIANE	NOUREDDINE	 07/11/1978		ABS															
+17506191	MERBAH	CHAYMA	 01/01/2000		ABS															
+16511545	MHASNI	SARAH	 17/09/1995		ABS															
+17513621	MOUKHLESS	ABDELATTAK	 15/06/1961		10															
+17501676	MOUMEN	IMANE	 12/07/1999		ABS															
+17512914	MOUSSAID	ABDELHAKIM	 20/05/1984		ABS															
+17513001	MOUTATAHIR	SOUAD	 15/01/1996		ABS															
+17509955	NACIRI	OMAR	 07/09/1986		2															
+17513720	NAOUM	MOHAMED	 10/06/1968		ABS															
+16512459	NAQOURI	CHAIMAA	 12/09/1998		ABS															
+17508429	NINIAA	HOUDA	 01/10/1999		ABS															
+17509176	OUALIM	OTHMANE	 08/02/1997		ABS															
+7002451	OUDA	MOHAMED	 25/02/1987		13															
+14512358	OULLAY	LATIFA	 27/02/1984		13															
+17501573	RAFA	RANYA	 14/03/1999		ABS															
+13002692	RAHISS	FAHD	 09/10/1981		ABS															
+17509597	RAKKABI	KHAOULA	 09/12/1999		ABS															
+17509288	RIAHI	ACHRAF	 09/06/1999		ABS															
+17508405	ROBATI	SAAD	 28/01/1999		ABS															
+15505048	SABRI	ACHRAF	 19/06/1996		ABS															
+17513429	SAFRI	AMAL	 11/03/1977		ABS															
+19517396	SAIFAR	EL MOSTAFA	 09/10/1985		ABS															
+17512291	SAJID	ABDELGHANI	 30/04/1986		10															
+17509396	SAMMOUD	NOUHAILA	 02/01/1999		ABS															
+17508835	SETTAR	YASSER	 16/07/1999		ABS															
+16502095	TAHA	YASSIR-TAHA	 23/11/1998		ABS															
+17505998	TAHIRI	MANAL	 31/05/1999		ABS															
+17509201	TALAA	CHAIMAE	 24/05/1999		ABS															
+17510339	TAMRA	KAOUTER	 07/03/1999		ABS															
+17501184	TARAOU	NADA	 05/11/1999		ABS															
+16512613	WAQFI	OUMAIMA	 20/07/1998		ABS															
+19517504	YAHI	HIBA	 31/01/1999		ABS															
+17513085	ZAHNI	SIHAM	 11/03/1971		ABS															
+19518239	ZAINANE	HAMDI	 24/06/1999		13															
+17512903	ZARDANI	ASSIA	 14/11/1990		2															
+16512625	ZATIOUR	SALIMA	 06/02/1996		ABS															
+17508726	ZEKRAOUI	OUMAIMA	 13/12/1999		ABS															
+3025773	ZEN	ABDELOUAHED	 01/10/1980		ABS															
+13010689	ZOUAKI	MOHAMMED AMINE	 17/02/1995		13															
+16512372	ZOUITINA	NOUREDDINE	 14/07/1959		ABS															
+17509609	ZOULAIKHI	MERIEM	 07/08/1999		ABS															

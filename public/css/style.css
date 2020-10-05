@@ -130,7 +130,7 @@
 
 /********************Second Screen*************************/
 .second-screen {
-	height: 100vh;
+	/*height: 100vh;*/
 	width:100%;
 	padding-top: 5%;
 	background-color: var(--light)
@@ -266,6 +266,7 @@
 	background-origin: content-box;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	margin-bottom: 200px;
 }
 .contact-component {
@@ -296,7 +297,7 @@
 .contact-component .contact-component-btn {
 	background-color: var(--primary);
 	color: white;
-	width: 100px;
+	width: 100%;
 }
 
 /********************Footer*************************/
@@ -545,8 +546,7 @@
 	.landing-page {
 		height: 600px;
 		padding-top: 22%;
-	}
-	.second-screen ,
+	} 
 	.third-screen ,
 	.fourth-screen ,
 	.fifth-screen {
