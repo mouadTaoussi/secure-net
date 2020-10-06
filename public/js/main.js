@@ -25,7 +25,8 @@ window.onscroll = ()=>{
 }
 
 document.querySelector(".dropdown").onmouseover = ()=>{
-	document.querySelector('.products').style.height = "300px";
+	document.querySelector('.products').style.height = "350px";
+	document.querySelector('.header').borderBottom = "0";
 	const list = document.querySelector('.products').children;
 	window.setTimeout(()=>{
 		for (var i = 0; i < list.length; i++) {
@@ -39,11 +40,13 @@ document.querySelector(".dropdown").onmouseover = ()=>{
 // 	document.querySelector('.products').style.height = "0";
 // }
 document.querySelector(".products").onmouseover = ()=>{
-	document.querySelector('.products').style.height = "300px";
+	document.querySelector('.products').style.height = "350px";
+	document.querySelector('.header').borderBottom = "0";
 }
 
 document.querySelector(".products").onmouseleave = ()=>{
 	document.querySelector('.products').style.height = "0";
+	document.querySelector('.header').borderBottom = "4px solid var(--primary) !important";
 	const list = document.querySelector('.products').children;
 
 	for (var i = 0; i < list.length; i++) {
