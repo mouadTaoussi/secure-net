@@ -5,7 +5,11 @@
 @import url("./fonts.css");
 @import url("./animations.css");
 
-
+.second-title {
+	font-family: sans-serif;
+	color: rgba(0,0,0,.8);
+	font-size: 20px;
+}
 /***
 *
 *
@@ -23,7 +27,7 @@
 	width: 100%;
 	z-index: 999;
 	transition: all .2s ease-out;
-	border-bottom: 4px solid var(--primary) !important;
+	/*border-bottom: 4px solid var(--primary) !important;*/
 
 }
 .header .brand {
@@ -65,7 +69,7 @@
 	width: 100%;
 	position: fixed;
 	transition: all 0.6s ease-out;
-	border-bottom: 4px solid var(--primary) !important;
+	/*border-bottom: 4px solid var(--primary) !important;*/
 	display: grid;
 	/*grid-gap: 10px;*/
 	grid-template-columns: repeat(4,1fr);
@@ -123,8 +127,32 @@
 	color: var(--text-darker);
 }
 .landing-page .btn-paid-version {
-	background-color: var(--primary);;
+	background-color: var(--primary);
 	color: white;
+}
+.testimonial {
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	color: rgba(0,0,0,.8);
+}
+.testimonial-user-info {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-gap:20px; 
+	width: 50%;
+	justify-items: start;
+
+}
+.testimonial-avatar {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+}
+.testimonial-content {
+	margin-top: 30px;
+}
+.testimonial-content p {
+	font-size: 18px;
 }
 
 /********************Second Screen*************************/
@@ -191,7 +219,11 @@
 	height: 100vh;
 	width:100%;
 	padding-top: 5%;
-	background-color: var(--primary)
+	background-image: url('.././assets/black-lighted-gaming-keyboard-841228.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .third-screen .main-title {
 	text-align: center;
@@ -237,9 +269,10 @@
 }
 /********************Fifth Screen*************************/
 .fifth-screen {
-	height: 100vh;
+	/*height: 100vh;*/
 	width:100%;
-	padding-top: 5%;
+	padding-bottom: 5%;
+	/*background-color: black;*/
 }
 .fifth-screen .main-title {
 	text-align: center;
@@ -248,7 +281,7 @@
 }
 .grid-logos {
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(5,1fr);
 	grid-gap: 30px;
 	width: 80%;
 	margin: 0 auto;
@@ -274,7 +307,7 @@
 	margin: 0 auto;
 	padding: 30px 20px 30px 20px;
 	background-color: white;
-	border: .4px solid rgba(0,0,0,.30) !important;
+	/*border: .4px solid rgba(0,0,0,.10) !important;*/
 }
 .contact-component .contact-component-title {
 	font-size: 30px!important;
@@ -446,8 +479,18 @@
 *
 *
 **/
+.pricing-page {
+	background-image: url('.././assets/PricingBackground.svg');
+	background-origin: content-box;
+	background-position: center;
+	background-size: cover;
+	padding-top: 60px;
+	height: 300px;
+	width: 100%;
+}
 .pricing-area {
-	padding-top: 8%;
+	/*padding-top: -18%;*/
+	margin-top: -100px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
@@ -476,6 +519,37 @@
 }
 .featured-plan {
 	border-color: var(--primary);
+}
+.pricing-testimonials-area {
+	padding-top: 8%;
+}
+.pricing-testimonials {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-gap: 20px;
+}
+.pricing-testimonial {
+	padding: 20px;
+	position: relative;
+	border-top: 3px solid red;
+	/*color: */
+}
+.pricing-testimonial .testimonial-avatar {
+	position: absolute;
+	top: -25px;
+	left: 42%;
+}
+.pricing-testimonial-user-name {
+	margin-top: 25px;
+}
+.pricing-testimonial-brand {
+	position: relative;
+	left: 30%;
+	margin-bottom: 20px;
+}
+.pricing-testimonial-content {
+	margin-top: 25px;
 }
 /**
 *
@@ -591,6 +665,12 @@
 		grid-template-columns: repeat(1,1fr);
 		grid-gap: 5px;
 	}
+	.pricing-page {
+		background-color: red;
+	}
+	.pricing-page h1 {
+		font-size: 30px;
+	}
 	.pricing-area {
 		grid-template-columns: 1fr;
 	}
@@ -608,6 +688,11 @@
 	}
 	.kbt-logo, .opnstk-logo {
 		display: none;
+	}
+	.pricing-testimonials {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
 	}
 }
 
